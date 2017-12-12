@@ -29,7 +29,7 @@ export default class RateCalculator extends React.Component {
         const rate = 10;
         return (
             <form>
-                <NumberInput id="day-rate" label="Day rate" min={0} max={5000} />
+                <NumberInput id="day-rate" label="Day rate" min={0} max={5000} onChange={rate => this.dayRate(rate)} />
                 <NumberInput id="hours" label="Hours" min={1} max={12} onChange={
                     (hours) => this.hoursWorked(hours)
                     } />
