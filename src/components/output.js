@@ -1,4 +1,6 @@
 import React from 'react';
+// import NumberInput from './number-input'
+//display number as values 
 
 export default function Output(props) {
     return (
